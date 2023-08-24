@@ -99,7 +99,7 @@ atividade.
     1. É necessário implementar corretamente a interface Repository;
 
 
-7. **(1,5 Pontos)** implementar corretamente a classe **Main**.
+7. **(2,5 Pontos)** implementar corretamente a classe **Main**.
 
    É necessário que a classe **Main** tenha acesso apenas as classes de serviço, 
    Somente as classes de serviço devem chamar os métodos das classes de Repository.
