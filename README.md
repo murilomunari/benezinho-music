@@ -26,8 +26,7 @@ SIMULADO - Domain Driven Design aplicada em 24/08/2023.
 
 Estamos expandindo o negócio e a meta para este semestre é desenvolver um aplicativo de músicas online.
 
-Nossa equipe de analistas desenvolveu o Diagrama de Classes abaixo, e a sua missão aqui é realizar o Mapeamento Objeto
-Relacional das classes de Entidade. Usaremos a JPA e o Hibernate como ferramentas de Mapeamento Objeto Relacional.
+Nossa equipe de analistas desenvolveu o Diagrama de Classes abaixo, e a sua missão aqui é implementar código capaz de separar as responsabilidades das classes entre as camadas objetivando melhor legibilidade e manutenibilidade do código do programa.
 
 Na sprint atual, você foi incumbido de fazer:
 
@@ -35,9 +34,9 @@ Na sprint atual, você foi incumbido de fazer:
 
 2. A criação das classes responsáveis pela persistencia e recuperação dos dados no repositório
 
-3. Desenvolver métodos capazes de persistir todos os objetos em List;
+3. Desenvolver métodos capazes de persistir todos os objetos em List ou outra Collection;
 
-4. A implementação de todos os métodos previstos na interface Repository:
+4. A implementação de todos os métodos previstos nas interfaces Repository e Services:
 
 <a id="_O_que_devera_ser_feito"></a>
 
