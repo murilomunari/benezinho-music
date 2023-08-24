@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Artista {
 
-    private long id;
+    private Long id;
 
     private String nome;
 
@@ -17,7 +17,12 @@ public class Artista {
 
     }
 
-    public long getId() {
+    public Artista(long l, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
+    public Long getId() {
         return id;
     }
 

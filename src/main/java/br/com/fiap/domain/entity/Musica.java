@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Musica {
 
-    private long id;
+    private Long id;
     private String nome;
     private Estilo estilo;
     private Set<Artista> artistas = new HashSet<>();
@@ -21,7 +21,12 @@ public class Musica {
         this.artistas = artistas;
     }
 
-    public long getId() {
+    public Musica(long l, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+
+    public Long getId() {
         return id;
     }
 
