@@ -1,4 +1,4 @@
-package br.com.fiap.domain.repository;
+package br.com.fiap.domain.repository.factory;
 
 import java.util.List;
 

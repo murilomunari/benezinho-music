@@ -22,6 +22,10 @@ public class Artista {
         this.nome = nome;
     }
 
+    public Artista(Long o, String nome) {
+
+    }
+
     public Long getId() {
         return id;
     }
